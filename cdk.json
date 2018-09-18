@@ -1,3 +1,10 @@
 {
-    "app": "node bin/vpc-examples.js"
+  "app": "node index.js",
+  "context": {
+    "availability-zones:092482355973:us-west-2": [
+      "us-west-2a",
+      "us-west-2b",
+      "us-west-2c"
+    ]
+  }
 }
