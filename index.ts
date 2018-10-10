@@ -37,7 +37,7 @@ class MyApp extends cdk.App {
         })
 
         new VpcStack(this, 'EksVpcPrivate', {
-            eksClusterName: 'PublicEks',
+            eksClusterName: 'PrivateEks',
             vpcProps: {
                 subnetConfiguration: [ {
                     subnetType: ec2.SubnetType.Private,
