@@ -5,6 +5,7 @@
       "us-west-2a",
       "us-west-2b",
       "us-west-2c"
-    ]
+    ],
+    "ssm:092482355973:us-west-2:/aws/service/ami-amazon-linux-latest/amzn-ami-hvm-x86_64-gp2": "ami-a0cfeed8"
   }
 }
